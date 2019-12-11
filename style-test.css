@@ -1,0 +1,189 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*Don't delete this or the header will disappear*/
+body, html {
+    height: 100%;
+}
+
+/* Add a background color to the top navigation */
+.topnav {
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: right;
+  color: #00171f;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #007ea7;
+  color: white;
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  height: 500px;
+  background: rgba(182, 135, 0, 0.2);
+}
+.hero h1, .hero h2 {
+  text-align: center;
+  color: #007ea7;
+  padding: 100px 0 10px 0;
+  position: relative;
+  text-shadow: 2px 2px #000;
+  z-index: 2;
+}
+
+.hero h1 {
+  font-size: 10em;
+  letter-spacing: 5px;
+}
+
+.hero h2 {
+  font-size: 1.9em;
+  letter-spacing: 3px;
+  padding: 10px 0;
+}
+
+.hero img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0.4;
+}
+
+#picture img {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 22%;
+  height: 50%;
+  border: 10px #007ea7 solid;
+  border-radius: 50%;
+}
+
+#about {
+  width: 50%;
+  text-align: center;
+  padding: 3em;
+  margin: auto;
+  font-size: 1.4em;
+}
+
+.section {
+  margin-top: 75px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#section-1, #section-2 {
+  background: rgba(182, 135, 0, 0.2);
+}
+
+
+.section-header {
+  text-align: center;
+  font-size: 3em;
+  color: #007ea7
+}
+
+.location-icon {
+  height: 17px;
+  margin-right: 5px;
+}
+
+#education {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.description {
+  padding-bottom: 10px;
+}
+
+#experience {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.box-header {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+#ewu, #wsu, #clark {
+  line-height: 20px;
+}
+
+#projects p {
+  padding: 30px;
+  text-align: justify;
+}
+
+.box {
+  width: 50%;
+  border: 2px solid black;
+  border-radius: 5px;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.2em;
+  margin: 1.5em auto;
+}
+
+footer {
+  background-color: #007ea7;
+  overflow: hidden;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  font-size: 2em;
+}
+
+footer a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+footer a img {
+  padding: 10px 5px 10px 5px;
+}
+
+#email-icon {
+  height: 55px;
+}
